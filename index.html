@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Envelope with Numerable Transition</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #FF1744, #000000, #FF69B4);
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        
+        .envelope {
+            position: relative;
+            width: 90%;
+            max-width: 300px;
+            height: 200px;
+            background-color: #FFD3E0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.5s ease-in-out;
+            animation: glow-envelope 1.5s infinite alternate;
+        }
+        
+        @keyframes glow-envelope {
+            from {
+                box-shadow: 0 0 10px rgba(255, 99, 150, 0.8);
+            }
+        
+            to {
+                box-shadow: 0 0 20px rgba(255, 99, 150, 0.8);
+            }
+        }
+        
+        .message-card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            height: 90%;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px; /* Adjusted font size for smaller screens */
+            color: #333;
+            animation: glow-message-card 1.5s infinite alternate;
+        }
+        
+        @keyframes glow-message-card {
+            from {
+                box-shadow: 0 0 5px rgba(255, 99, 150, 0.5);
+            }
+        
+            to {
+                box-shadow: 0 0 10px rgba(255, 99, 150, 0.5);
+            }
+        }
+        
+        .envelope:hover {
+            background-color: #FFC3D0;
+        }
+        
+        .message-card:nth-child(odd) {
+            background-color: rgb(170, 119, 119);
+        }
+        
+        .message-card:nth-child(even) {
+            background-color: #FFC3D0;
+        }
+        
+        .envelope-number {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 14px; /* Adjusted font size for smaller screens */
+            color: #666;
+        }
+        
+        #starCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper {
+            width: 90%;
+            max-width: 250px;
+            height: 340px;
+            margin-top: 20px;
+        }
+        
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 18px;
+            font-size: 18px; /* Adjusted font size for smaller screens */
+            font-weight: bold;
+            color: black;
+            background-color: #FFD3E0;
+            text-wrap: wrap;
+        }
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            
+        }
+        span{
+            font-size: medium;
+        }
+       
+        
+    </style>
+</head>
+
+<body>
+   
+    <canvas id="starCanvas"></canvas>
+    
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="12 (5).jpeg"></div>
+            <div class="swiper-slide">कितना बेबस हैं पिता बेटी की विदाई पर,<br>
+                नाज़ों से पाली लाड़ली, रखा आँखों पर,<br>
+                मेरी नन्ही परी तू याद बहुत आएगी,<br>
+                अपने माँ-बाबा से दूर तू चली जाएगी.</div>
+            <div class="swiper-slide">May You live a happy and lovable life with rajat jiju ❤️</div>
+            <div class="swiper-slide"><img src="12 (7).jpeg"></div>
+            <div class="swiper-slide"><b>Here are some messages for you!!</b></div>
+            <div class="swiper-slide"> <SPAN>Sach me aap bhot yaad aaogi ❤️,<BR>
+                Jate jate sabko bhot rulaogi 🥺,<BR>
+                Man to hai rok le aapko ❤️,<BR>
+                par humse kaha ruk paogi 🥺,<BR>
+                Sab khushi se nachenge shaadi me ❤️,<BR>
+                Par bhot rulayega wo vidai ka din 🥺,<BR>
+                Ab aaunga jab bhi ghr aapke 🥺,<BR>
+                Kaise man lagega aapse baat kare bin 🥺</SPAN><BR></div>
+                    <div class="swiper-slide"><img src="12.jpeg"></div>
+                    <div class="swiper-slide">Some compliments for you ❤️</div>
+            <div class="swiper-slide">You are so Beautiful ❤️</div>
+
+            <div class="swiper-slide"><img src="12 (12).jpeg"></div>
+            <div class="swiper-slide">You are so Elegant ❤️</div>
+            <div class="swiper-slide"><img src="12 (9).jpeg"></div>
+            <div class="swiper-slide">You are so kind ❤️</div>
+            <div class="swiper-slide"><img src="12 (13).jpeg"></div>
+            <div class="swiper-slide">Your generosity knows no bounds ❤️</div>
+            <div class="swiper-slide"><img src="12 (17).jpeg"></div>
+            <div class="swiper-slide">You light up every room you enter ❤️</div>
+            <div class="swiper-slide"><img src="12 (18).jpeg"></div>
+            <div class="swiper-slide">You are so cute ❤️</div>
+            <div class="swiper-slide"><img src="12 (19).jpeg"></div>
+            <div class="swiper-slide">We all will miss you alot ❤️</div>
+            <div class="swiper-slide"><img src="12 (20).jpeg"></div>
+            <div class="swiper-slide">Pardesi banke hame bhul na jana ❤️</div>
+            <div class="swiper-slide">Your brother is always here for you ❤️</div>
+            <div class="swiper-slide">Take care of Yourself ❤️</div>
+            <div class="swiper-slide">AB ZARA APNE RISHTEDAARO SE MIL LE ❤️</div>
+           
+
+
+            <div class="swiper-slide">AAPKI SUNDAR CHOTI BHEN❤️</div>
+            <div class="swiper-slide"><img src="13 (3).jpg"></div>
+            <div class="swiper-slide">AAPKA SAARI BAAT MANNE WALA CHOTA BHAI 😂</div>
+            <div class="swiper-slide"><img src="13 (2).jpg"></div>
+            <div class="swiper-slide">SUSHMA TAI JI AUR VICKY TAU JI ❤️ </div>
+            <div class="swiper-slide"><img src="12 (3).jpeg"></div>
+            <div class="swiper-slide">VARSHA CHACHI AND SANJAY CHACHA ❤️ </div>
+            <div class="swiper-slide"><img src="13 (1).jpg"></div>
+           
+            
+           
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+
+        const canvas = document.getElementById('starCanvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Star object
+        function Star(x, y, size, speed) {
+            this.x = x;
+            this.y = y;
+            this.size = size;
+            this.speed = speed;
+
+            this.draw = function () {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = '#ffffff';
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = '#ffffff';
+                ctx.fill();
+            }
+
+            this.update = function () {
+                this.y += this.speed;
+                if (this.y > canvas.height) {
+                    this.y = 0;
+                }
+            }
+        }
+
+        const stars = [];
+
+        function init() {
+            for (let i = 0; i < 50; i++) {
+                const x = Math.random() * canvas.width;
+                const y = Math.random() * canvas.height;
+                const size = Math.random() * 2 + 1;
+                const speed = Math.random() * 2 + 1;
+                stars.push(new Star(x, y, size, speed));
+            }
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            stars.forEach(star => {
+                star.update();
+                star.draw();
+            });
+        }
+
+        init();
+        animate();
+
+        let currentIndex = 0;
+        const messageCards = document.querySelectorAll('.message-card');
+        const envelopeNumber = document.querySelector('.envelope-number');
+        const envelope = document.querySelector('.envelope');
+
+        function showCard(index) {
+            messageCards.forEach((card, i) => {
+                if (i === index) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+            envelopeNumber.textContent = `${index + 1} / ${messageCards.length}`;
+        }
+
+        // Initial display
+        showCard(currentIndex);
+
+        // Handle tapping to show next message
+        envelope.addEventListener('click', function () {
+            currentIndex = (currentIndex + 1) % messageCards.length;
+            showCard(currentIndex);
+        });
+    </script>
+</body>
+
+</html>
