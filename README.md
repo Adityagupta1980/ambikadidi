@@ -138,13 +138,13 @@
     
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/12 (5).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (5).jpeg"></div>
             <div class="swiper-slide">कितना बेबस हैं पिता बेटी की विदाई पर,<br>
                 नाज़ों से पाली लाड़ली, रखा आँखों पर,<br>
                 मेरी नन्ही परी तू याद बहुत आएगी,<br>
                 अपने माँ-बाबा से दूर तू चली जाएगी.</div>
             <div class="swiper-slide">May You live a happy and lovable life with rajat jiju ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (7).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (7).jpeg"></div>
             <div class="swiper-slide"><b>Here are some messages for you!!</b></div>
             <div class="swiper-slide"> <SPAN>Sach me aap bhot yaad aaogi ❤️,<BR>
                 Jate jate sabko bhot rulaogi 🥺,<BR>
@@ -154,23 +154,23 @@
                 Par bhot rulayega wo vidai ka din 🥺,<BR>
                 Ab aaunga jab bhi ghr aapke 🥺,<BR>
                 Kaise man lagega aapse baat kare bin 🥺</SPAN><BR></div>
-                    <div class="swiper-slide"><img src="images/12.jpeg"></div>
+                    <div class="swiper-slide"><img src="12.jpeg"></div>
                     <div class="swiper-slide">Some compliments for you ❤️</div>
             <div class="swiper-slide">You are so Beautiful ❤️</div>
 
-            <div class="swiper-slide"><img src="images/12 (12).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (12).jpeg"></div>
             <div class="swiper-slide">You are so Elegant ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (9).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (9).jpeg"></div>
             <div class="swiper-slide">You are so kind ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (13).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (13).jpeg"></div>
             <div class="swiper-slide">Your generosity knows no bounds ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (17).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (17).jpeg"></div>
             <div class="swiper-slide">You light up every room you enter ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (18).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (18).jpeg"></div>
             <div class="swiper-slide">You are so cute ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (19).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (19).jpeg"></div>
             <div class="swiper-slide">We all will miss you alot ❤️</div>
-            <div class="swiper-slide"><img src="images/12 (20).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (20).jpeg"></div>
             <div class="swiper-slide">Pardesi banke hame bhul na jana ❤️</div>
             <div class="swiper-slide">Your brother is always here for you ❤️</div>
             <div class="swiper-slide">Take care of Yourself ❤️</div>
@@ -179,13 +179,13 @@
 
 
             <div class="swiper-slide">AAPKI SUNDAR CHOTI BHEN❤️</div>
-            <div class="swiper-slide"><img src="images/13 (3).jpg"></div>
+            <div class="swiper-slide"><img src="13 (3).jpg"></div>
             <div class="swiper-slide">AAPKA SAARI BAAT MANNE WALA CHOTA BHAI 😂</div>
-            <div class="swiper-slide"><img src="images/13 (2).jpg"></div>
+            <div class="swiper-slide"><img src="13 (2).jpg"></div>
             <div class="swiper-slide">SUSHMA TAI JI AUR VICKY TAU JI ❤️ </div>
-            <div class="swiper-slide"><img src="images/12 (3).jpeg"></div>
+            <div class="swiper-slide"><img src="12 (3).jpeg"></div>
             <div class="swiper-slide">VARSHA CHACHI AND SANJAY CHACHA ❤️ </div>
-            <div class="swiper-slide"><img src="images/13 (1).jpg"></div>
+            <div class="swiper-slide"><img src="13 (1).jpg"></div>
            
             
            
